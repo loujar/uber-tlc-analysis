@@ -1,0 +1,19 @@
+name: uber_TLC_FOIL_analysis_LSJ
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - geopandas
+  - geoplot
+  - joblib
+  - pysal
+  - folium
+  - scikit-learn
+  - rasterio
+  - pip
+  - pip:
+    - contextily
+    - libpysal
+    - mgwr
+    - mapclassify
+    - esda
